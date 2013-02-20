@@ -1,0 +1,5 @@
+Pesho -> 4 times found in the test.txt.
+lele -> 3 times found in the test.txt.
+ehe -> 2 times found in the test.txt.
+Titi -> 1 times found in the test.txt.
+Gosho -> 1 times found in the test.txt.

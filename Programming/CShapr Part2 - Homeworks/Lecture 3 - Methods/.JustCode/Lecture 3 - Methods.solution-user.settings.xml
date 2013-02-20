@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<JustCodeSettings Version="0.0" Timestamp="f703b2d9-d0e3-448a-aae1-53457f5fce32">
+  <IgnoredErrorsAndWarningsSettings xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+    <IgnoredErrorsAndWarnings>
+      <FilePath>
+        <Path>C:\Users\July\Desktop\C# 2\Homeworks\Lecture 3 - Methods\02. MaxIntegerOfThree\MaxIntegerOfThree.cs</Path>
+        <ProjectFullName>C:\Users\July\Desktop\C# 2\Homeworks\Lecture 3 - Methods\02. MaxIntegerOfThree\02. MaxIntegerOfThree.csproj</ProjectFullName>
+        <IgnoredElement>
+          <Column>5</Column>
+          <Text>Not all code paths return a value</Text>
+          <Line>11</Line>
+        </IgnoredElement>
+      </FilePath>
+    </IgnoredErrorsAndWarnings>
+  </IgnoredErrorsAndWarningsSettings>
+</JustCodeSettings>

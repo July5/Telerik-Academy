@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. PrintSquareRootOfNumber", "01. PrintSquareRootOfNumber\01. PrintSquareRootOfNumber.csproj", "{DAF9D4E8-EFE5-4496-BBFC-A2AC2E636903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. NumbersInGivenRange", "02. NumbersInGivenRange\02. NumbersInGivenRange.csproj", "{B601C5F1-949E-4241-A91A-05E88DFECBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. ReadAndPrintFileContent", "03. ReadAndPrintFileContent\03. ReadAndPrintFileContent.csproj", "{B0EE3E1F-6432-453A-A1DD-4E286AC97E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. DownloadFileFromInternet", "04. DownloadFileFromInternet\04. DownloadFileFromInternet.csproj", "{3CF423AE-08D5-4939-B50C-B1977D938C42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAF9D4E8-EFE5-4496-BBFC-A2AC2E636903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF9D4E8-EFE5-4496-BBFC-A2AC2E636903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF9D4E8-EFE5-4496-BBFC-A2AC2E636903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF9D4E8-EFE5-4496-BBFC-A2AC2E636903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B601C5F1-949E-4241-A91A-05E88DFECBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B601C5F1-949E-4241-A91A-05E88DFECBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B601C5F1-949E-4241-A91A-05E88DFECBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B601C5F1-949E-4241-A91A-05E88DFECBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0EE3E1F-6432-453A-A1DD-4E286AC97E69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0EE3E1F-6432-453A-A1DD-4E286AC97E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0EE3E1F-6432-453A-A1DD-4E286AC97E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0EE3E1F-6432-453A-A1DD-4E286AC97E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CF423AE-08D5-4939-B50C-B1977D938C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CF423AE-08D5-4939-B50C-B1977D938C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CF423AE-08D5-4939-B50C-B1977D938C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CF423AE-08D5-4939-B50C-B1977D938C42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
