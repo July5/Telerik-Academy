@@ -1,0 +1,77 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td , th
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	margin:15px;
+	font-family: arial;
+	background-color: #eeeeee;
+}
+
+h1
+{
+	margin-bottom:50px;
+	font-weight:normal;
+	font-size:24px;
+}
+
+article
+{
+	border: 2px solid #777777;
+	padding: 20px;
+	background-color:white;
+	height: 140px;
+	width:500px;
+	font-size:90%;
+	margin-bottom: 40px; 
+}
+
+article > img
+{
+	width: 200px;
+	float: left;
+	border: 1px solid #777777;
+	margin-right:20px;
+}
+
+article > p > img
+{
+	float: right;
+	margin-left:5px;
+	vertical-align: bottom;
+	display:inline-block;
+}
+
+.buttons
+{
+	margin-top:70px;
+}
+
+.listen
+{
+	display: inline-block;
+	padding: 5px 15px 5px 22px;
+	color: white;
+	text-decoration: none;
+	background-image: url("Images/listen.png");
+	margin-left: 130px;
+}
+
+.add
+{
+	display: inline-block;
+	padding: 5px 15px 5px 22px;
+	color: white;
+	text-decoration: none;
+	background-image: url("Images/listen.png");=
+}
+
+p > a:hover 
+{ 
+	text-decoration: underline; 
+}
+	
+	

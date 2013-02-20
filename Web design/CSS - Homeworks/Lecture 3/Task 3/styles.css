@@ -1,0 +1,70 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td , th
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	width: 663px;
+	height: 299px;
+	border: 1px solid #806850;
+	border-radius: 2px;
+	font-size: 12px;
+	font-family: georgia, times, new roman;
+	background-image: url("Images/background.png");	
+	background-repeat: no-repeat;
+}
+
+img#first
+{
+	float:left;
+	margin: 9px;
+}
+	
+img#second
+{
+	float:right;
+	margin: 13px;
+}
+
+h3
+{
+	font-size:1.8em;
+	color: #bbb;
+	margin: 15px;
+	vertical-align:middle;
+	display:inline-block;
+	font-weight:normal;
+}
+
+input
+{
+	margin-top:20px;
+	margin-right: 18px;
+}
+
+
+h1
+{
+	color:#FFE11F;
+	font-size: 2.6em;
+	font-weight:normal;
+	margin: 13px 0px;
+}
+
+p
+{
+	color:#A3A3A3;
+	font-size: 1.3em;
+}
+
+section
+{
+	padding: 10px;
+}
+
+span
+{
+	color:white;
+}

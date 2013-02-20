@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+	<title>Lecture 3 - Forms and Frames - Task 3</title>
+	<style type="text/css">
+	table, tr, td, th
+	{
+		font-size:15px;
+		font-family:Arial;
+		border:1px solid #B0B6BD;
+	}
+	thead, tfoot
+	{
+		background-color:#E0E6E3;
+	}
+	</style>
+</head>
+<body>    
+    <section>
+		<table cellspacing="0" cellpadding="7">
+			<colgroup>
+					<col width="100px" />
+					<col width="300px" />
+					<col width="200px" />
+					<col width="200px" />
+					<col width="200px" />
+					<col width="100px" />
+			</colgroup>
+			<thead>
+				<form method="post">
+				<tr>
+					<td colspan="6">Drag a column header and drop it here to group by that column</td>
+				</tr>
+				<tr>					
+					<td><label for="ID">Product ID</label></td>
+					<td><label for="name">Product name</label></td>
+					<td><label for="price">Unit price</label></td>
+					<td><label for="quan">Quantity per unit</label></td>
+					<td><label for="stock">Units in stock</label></td>
+					<td><label for="discont">Discontinued</label></td>
+				</tr>
+				<tr>					
+					<td><input type="text" id="ID" size="2" /></td>
+					<td><input type="text" id="name" size="20" /></td>
+					<td><input type="text" id="price" size="11" /> <button type="button" onclick="#"><img src="images/icon.png" width="15" alt="icon"></button></td>
+					<td><input type="text" id="quan" size="13" /></td>
+					<td><input type="text" id="stock" size="11" /><button type="button" onclick="#"><img src="images/icon.png" width="15" alt="icon"></button></td>
+					<td><input type="checkbox" id="discon" /><button type="button" onclick="#"><img src="images/icon.png" width="15" alt="icon"></button></td>					
+				</tr>
+				</form>
+			</thead>
+			<tfoot>
+				<form method="post">
+				<tr>
+					<td colspan="9">						
+							<button type="button" onclick="#"><img src="images/backward.png" width="15" alt="backward"></button> 
+							<button type="button" onclick="#"><img src="images/back.png" width="15" alt="back"></button>   
+							<a href="#" title="First Page">1</a>  
+							<a href="#" title="Second Page">2</a>  
+							<a href="#" title="Third Page">3</a>  
+							<a href="#" title="Fourth Page">4</a>  
+							<a href="#" title="FifthPage">5</a>  
+							<a href="#" title="Sixth Page">6</a>  
+							<a href="#" title="Seventh Page">7</a>  
+							<a href="#" title="Eighth Page">8</a>  
+							<a href="#" title="Ninth Page">9</a>  
+							<a href="#" title="Tenth Page">10</a>  ...   
+							<button type="button" onclick="#"><img src="images/next.png" width="15" alt="icon"></button>				  	
+							<button type="button" onclick="#"><img src="images/forward.png" width="15" alt="icon"></button>    
+							<label for="PZ">Page size: </label>
+							<select id="PZ">
+								<option value="10">10</option>
+								<option value="15">15</option>
+								<option value="20">20</option>
+							</select>
+					</td>
+				</tr>
+				</form>
+			</tfoot>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>9</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+				<tr>
+					<td>10</td>
+					<td>Chai</td>
+					<td>$18.00</td>
+					<td>10 boxes x 20 bags</td>
+					<td>39</td>
+					<td><input type="checkbox" /></td>
+				</tr>
+			</tbody>			
+		</table>		
+	</section>    
+</body>
+</html>

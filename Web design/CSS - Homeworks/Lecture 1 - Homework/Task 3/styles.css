@@ -1,0 +1,87 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td 
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	background-color: rgb(190,190,190);
+	font-family: times new roman, verdana;
+	margin: 3mm;
+	font-size:5mm;
+}
+
+a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#header
+{
+	font-size:12mm;
+	text-align: center;
+	padding: 7mm;
+}
+
+header nav ul 
+{
+	list-style-type:none;
+	text-align:center;
+	padding-bottom: 10mm;
+}
+
+header nav ul li a 
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 7mm;
+}
+
+.white
+{
+	color: white;
+}
+
+#light
+{
+	background-color: rgb(210,210,210);
+}
+
+#underline
+{
+	text-decoration: underline;
+}
+
+article header h1
+{
+	font-size: 8mm;
+	padding-bottom: 10mm;
+}
+
+article p
+{
+	height: 40px;
+    overflow: hidden;
+    text-overflow: clip;
+	margin-bottom: 5mm;
+}
+
+article footer
+{
+	font-size: 4mm;
+}
+
+body section
+{
+	height: 360px;
+    overflow: hidden;
+}
+
+body > footer
+{
+	font-size5.5mm;
+	text-align:center;
+}

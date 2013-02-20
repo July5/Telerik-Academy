@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+	<title>Lecture 3 - Forms and Frames - Task 1</title>
+	<style type="text/css">
+	table, tr, td, th
+	{
+		border:1px solid grey;
+	}
+	td.buttons
+	{
+		background-color:lightgreen;
+		text-align:center;
+		height:40px;
+	}
+	th
+	{
+		text-align:right;
+	}
+	</style>
+</head>
+<body>
+    <section>
+		<form method="get" action="submit-now.php">
+			<table cellspacing="0" cellpadding="2">		
+				<colgroup>
+					<col width="200px" />
+					<col width="150px" />
+				</colgroup>
+				<tr>
+					<th><label for="LN">Last Name</label></th>
+					<td colspan="3"><input type="text" size="45" placeholder="Your last name here" id="LN" /></td>
+				</tr>
+				<tr>
+					<th><label for="FN">First Name</label></th>
+					<td colspan="3"><input type="text" size="45"  placeholder="Your first name here" id="FN" /></td>
+				</tr>
+				<tr>
+					<th><label for="Address">Address</label></th>
+					<td colspan="3"><textarea cols="35" rows="4"  placeholder="Your address here" id="Address"></textarea></td>
+				</tr>
+				<tr>
+					<th><label for="City">City</label></th>
+					<td><input type="text" size="25" id="City"  placeholder="City you live in" /></td>
+					<th><label for="State">State</label></th>
+					<td><input type="text" size="8" id="State"  placeholder="State" /></td>
+				</tr>
+				<tr>
+					<th><label for="Zip">Zip/Postal Code</label></th>
+					<td colspan="3"><input type="text" size="18"  placeholder="Your Zip/Postal code" id="Zip" /></td>
+				</tr>	
+				<tr>
+					<th><label for="Country">Country</label></th>
+					<td colspan="3">
+						<select name="Country" id="Country">
+							<option value="BG" selected="selected">Bulgaria</option>
+							<option value="RU">Russia</option>
+							<option value="GR">Germany</option>
+						</select>
+					</td>
+				</tr>	
+				<tr>
+					<th><label for="Phone">Phone (couuntry code, area code, number)</label></th>
+					<td colspan="3">(+
+					<input type="tel" size="5" pattern="[0-9]{3}" required="true" id="Phone" placeholder="359" />)
+					<input type="tel" size="5" pattern="[0-9]{2,3}" required="true" placeholder="88" />-
+					<input type="tel" size="15" pattern="[0-9]{4,}" required="true" placeholder="8888888888" /></td>
+				</tr>	
+				<tr>
+					<th><label for="Email">Email</label></th>
+					<td colspan="3"><input type="email" required="true" pattern="[a-zA-Z0-9_.-]{3,}@[a-zA-Z0-9_]{3,}.[a-zA-Z0-9_]{2,4}" placeholder="sample@email.com" id="Email" size="45" /></td>
+				</tr>	
+				<tr>
+					<th><label for="BD">Birth date</label></th>
+					<td colspan="3">
+						Month <input type="text" size="1"  placeholder="01" id="BD" />
+						Day <input type="text"  placeholder="01" size="1" />
+						Year (4 digit) <input type="text"  placeholder="2012" size="4" />
+					</td>
+				</tr>	
+				<tr>
+					<th><label for="Gender">Gender</label></th>
+					<td colspan="3">
+						<select name="Gender" id="Gender">
+							<option value="M" selected="selected">Male</option>
+							<option value="F">Female</option>
+							<option value="MF">Other</option>
+						</select>
+					</td>
+					</td>
+				</tr>	
+				<tr>
+					<th>Starting Date</th>
+					<td colspan="3">
+						<input name="SDate" type="radio" id="Spring" value="Sp" />
+						<label for="Spring">Spring 2006</label>
+						<input name="SDate" type="radio" id="Summer" value="Su" />
+						<label for="Summer">Summer 2006</label>
+					</td>
+				</tr>	
+				<tr>
+					<th><label for="CQ">Comments/Questions</label></th>
+					<td colspan="3"><textarea cols="35" rows="4"  placeholder="Your questions and comments." id="CQ"></textarea></td>
+				</tr>	
+				<tr>
+					<td class="buttons" colspan="5">
+						<input type="submit" name="submit" value="Submit" />
+						<input type="reset" value="Clear This Form" />
+					</td>
+				</tr>					
+			</table>
+		</form>
+	</section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td , th
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	font-size: 12px;
+	font-family:arial, verdana;
+	padding:10px;
+	height: 700px;
+}
+h1 
+{		
+	text-align: center;
+}
+
+h1 > a
+{
+	font-weight: normal;
+	font-size: 30px;
+	color: #00ABEF;
+}
+
+img
+{
+	width: 135px;
+	float:left;
+}
+
+section#main
+{
+	display:inline-block;
+	font-family: candara, arial;
+	width:560px;
+	border: 2px solid #777;
+	margin: 12px;
+	padding: 15px;
+}
+
+fieldset
+{
+	display: inline-block;
+	border-color: #777;
+	height:130px;
+	width: 237px;
+	font-size: 20px;
+	margin: 3px;
+}
+
+hr
+{
+	height:1px; 
+	width:95%; 
+	background-color:#333;
+	color: #333;
+}
+
+legend
+{
+	text-align:center;
+	border-color: #777;
+}
+
+p
+{
+	margin: 13px 1px;
+}
+
+span
+{
+	margin-left:26px;
+}
+
+section#options
+{
+	font-size: 26px;
+	display:inline-block;
+	font-family: candara, arial;
+	position:absolute;
+	margin:130px 10px 10px 10px;
+}
+
+	

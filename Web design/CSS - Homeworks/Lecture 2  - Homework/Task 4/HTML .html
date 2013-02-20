@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link type="text/css" rel="stylesheet"
+    href="styles.css"  />
+</head>
+<body>
+    <header>		
+		<nav>
+			<ul id="ul_menu">
+				<li class="menu">View</li>
+				<li class="menu">Edit</li>
+				<li class="menu">Help</li>
+			</ul>
+		</nav>
+	</header>
+    <section>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="10">0</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td id="bi" colspan="10">
+<pre>0000   0000   0000   0000   0000   0000   0000   0000
+<font color="grey">63                          47                     32</font>0000   0000   0000   0000   0000   0000   0000   0000
+<font color="grey">31                          15                      0</font></pre>					</td>
+				</tr>
+				<tr>
+					<td class="radio" colspan="2" rowspan="3">
+					<form>
+					<input name="group1" type="radio" id="hex" /><label for="hex"> Hex</label>
+					<input name="group1"  type="radio" id="dec" checked /><label for="dec"> Dec</label>
+					<input name="group1"  type="radio" id="oct" /><label for="oct"> Oct</label>
+					<input name="group1"  type="radio" id="bin" /><label for="bin"> Bin</label>					
+					</form>
+					</td>
+					<td class="unactive"></td>
+					<td class="special">Mod</td>
+					<td class="unactive">A</td>
+					<td class="">MC</td>
+					<td class="">MR</td>
+					<td class="">MS</td>
+					<td class="">M+</td>
+					<td class="">M-</td>
+				</tr>
+				<tr>
+					<td class="special">(</td>
+					<td class="special">)</td>
+					<td class="unactive">B</td>
+					<td class="special"><img src="Images/arrow.png" /></td>
+					<td class="special">CE</td>
+					<td class="special">C</td>
+					<td class="special">±</td>
+					<td class="unactive"><img src="Images/check_sign.png" /></td>
+				</tr>
+				<tr>
+					<td class="special">RoL</td>
+					<td class="special">RoR</td>
+					<td class="unactive">C</td>
+					<td class="numbers">7</td>
+					<td class="numbers">8</td>
+					<td class="numbers">9</td>
+					<td class="special">/</td>
+					<td class="unactive">%</td>
+				</tr>
+				<tr>
+					<td class="radio" colspan="2" rowspan="3">
+					<form>
+					<input name="group2" type="radio" id="qword" checked /> <label for="qword"> Qword</label>
+					<input name="group2"  type="radio" id="dword" /><label for="dword"> Dword</label>
+					<input name="group2"  type="radio" id="word" /><label for="word"> Word</label> 
+					<input name="group2"  type="radio" id="byte" /><label for="byte"> Byte</label>					
+					</form>
+					</td>
+					<td class="special">Or</td>
+					<td class="special">Xor</td>
+					<td class="unactive">D</td>
+					<td class="numbers">4</td>
+					<td class="numbers">5</td>
+					<td class="numbers">6</td>
+					<td class="special">*</td>
+					<td class="unactive">1/x</td>
+				</tr>
+				<tr>
+					<td class="special">Lsh</td>
+					<td class="special">Rsh</td>
+					<td class="unactive">E</td>
+					<td class="numbers">1</td>
+					<td class="numbers">2</td>
+					<td class="numbers">3</td>
+					<td class="special">-</td>
+					<td id="equal" rowspan="2">=</td>
+				</tr>
+				<tr>
+					<td class="special">Not</td>
+					<td class="special">And</td>
+					<td class="unactive">F</td>
+					<td class="numbers"   colspan="2">0</td>
+					<td class="unactive">.</td>
+					<td class="special">+</td>
+				</tr>
+				
+			</tbody>
+		</table>
+	</section>    
+</body>
+</html>

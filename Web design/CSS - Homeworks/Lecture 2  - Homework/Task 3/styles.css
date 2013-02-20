@@ -1,0 +1,19 @@
+body
+{
+	width:900px;
+}
+div
+{	
+	border: 1px solid red;
+	border-radius:30px;
+	background-color: black;
+}
+div.bold
+{
+	border-color: black;
+	border-right-width:20px;	
+	border-right-color:rgba(0,0,0,0);
+	border-top-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}

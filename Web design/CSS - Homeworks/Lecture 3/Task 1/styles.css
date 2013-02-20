@@ -1,0 +1,50 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td , th
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	margin:5px;
+	font-family: times new roman, verdana:
+	font-size: 12px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+ul ul
+ {
+	display: none;
+}
+a, a:visited 
+{
+    text-decoration:none;
+    color:black;
+}
+
+a:hover
+{
+	text-decoration: underline;
+}
+
+ul li:hover > ul
+{
+	display: block;	
+}
+
+.SubLinks > a
+{
+	color: #777777;
+	margin-left:20px;
+}
+
+
+
+
+
+
+	

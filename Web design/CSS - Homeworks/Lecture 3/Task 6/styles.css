@@ -1,0 +1,91 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td , th
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	width: 700px;
+	height: 370px;
+	border: 1px solid #00968C;
+	border-radius: 2px;
+	font-size: 15px;
+	font-family:arial, verdana;
+	font-weight:bold;
+	background: #1E3741;
+}
+
+nav>ul>li
+{
+	display:inline-block;
+	padding:12px;
+	margin: 10px 0px;
+	background-color:#4B5F67;
+}
+
+#active1
+{
+	padding:12px;
+	margin:0px -12px;
+	background-color:#1E3741;
+	color:#ddd;
+}
+
+#active2
+{
+	padding:9px 51px 8px 5px;
+	background-color:#00968C;
+	color:white;	
+	margin-top:15px;
+	margin-left: -5px;
+	margin-right: -20px;
+}
+
+nav>ul>li>a
+{
+	color: #91ACAF;
+}
+
+aside>ul>li
+{
+	background-color:#1E3741;
+}
+
+aside>ul>li
+{
+	display:inline-block;
+	padding:8px 10px 8px 0px;
+	margin-left:5px;
+	width: 270px;	
+	text-align:left;	
+}
+
+aside>ul>li>a
+{
+	color: #869398;
+}
+
+img
+{
+	float:right;
+	vertical-align:top;
+	margin:0px 30px 15px 0px;
+}
+
+a
+{
+	text-decoration:none;
+}
+
+hr
+{	margin: 0px;
+	align:left;
+	height: 1px;
+	width:40%;
+	border:0;
+	background-color:#4B5F67;
+}
+
+
+	

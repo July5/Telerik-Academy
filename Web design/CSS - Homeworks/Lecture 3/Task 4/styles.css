@@ -1,0 +1,113 @@
+body, header, h1, nav, ul, ol, li, article, p, div, footer, table, tr, tr, td , th
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	font-size: 0.8em;
+	font-family:arial, verdana;
+	background-color: #ddd;
+	border: 1px solid black;
+	padding:2px;	
+	height:663px;
+}
+
+.red
+{
+	color:#941412;
+	margin-top:16px;
+	margin-left:4px;
+	font-weight:bold;
+}
+
+header
+{
+	float:left;
+}
+
+h2
+{
+	background-color:#777;
+	color:white;
+	font-size:1.3em;
+	padding-left:4px;
+}
+
+ul>li
+{
+	color:black;	
+	font-weight:normal;
+}
+
+#home
+{
+	margin-top:16px;
+	margin-left:4px;
+}
+
+#logo
+{
+	float:left;
+	margin-bottom: 20px;
+	margin-right: 15px;	
+}
+
+hr
+{
+	height:2px; 
+	background-color:#333;
+	color: #333;
+}
+
+h3
+{
+	font-size:1.1em;
+}
+
+section
+{
+	border: 2px solid #777;
+	vertical-align:top;
+	position:relative;
+	margin: 2px;
+	padding: 5px;
+	width: 500px;
+	float:left;
+	height:625px;
+	background-color: #f1f1f1;
+}
+
+aside>div
+{
+	border: 2px solid #777;
+	vertical-align:top;
+	display:inline-block;
+	position:relative;
+	margin: 1px 2px;
+	width: 200px;
+	text-align:center;
+	min-height:20px;
+	vertical-align:middle;
+	padding:4px;	
+	background-color: #f1f1f1;
+}
+
+aside>div>h2
+{
+	margin: -4px -4px 2px -4px;
+	text-align:center;
+}
+
+h1
+{
+	margin: 10px 2px;
+}
+
+a
+{
+
+	color:#941412;
+	
+} 

@@ -1,0 +1,39 @@
+body
+{
+	padding:0;
+	margin:0;
+	ul
+	{
+		list-style:none;
+		margin:0;
+		padding:15px;
+		li
+		{
+			display:inline;
+			input[type="radio"]
+			{
+				display:none;
+
+				&:checked +label div
+				{
+					display:inline;
+				}
+			}
+
+			label
+			{
+				div.BigImage
+				{
+					position:absolute;
+					display:none;
+					top:140px;
+					left:100px;					
+				}
+				&>img:hover
+				{
+						opacity:0.6;					
+				}
+			}
+		}
+	}
+}

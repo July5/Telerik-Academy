@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+	<title>Homework Desing 2</title>
+</head>
+<body>
+	<header>
+		<h1><a href="#" title="LinkedIn"> LinkedIn</a></h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#" title="Home">Home</a></li>
+			<li><a href="#" title="What is LinkedIn">What is LinkedIn?</a></li>
+			<li><a href="#" title="Join">Join Today</a></li>
+			<li>
+				<form method="get" action="sign-in.php">
+					<fieldset>
+						<legend>Sign In</legend>
+						<ul type="circle">
+							<li><label for="email">Email: </label><input type="email" name="email" required="true" /></li>
+							<li><label for="password">Password: </label><input type="password" name="password" required="true" /></li>
+							<li><input type="submit" name="sign-in" value="Sign In" /></li>
+						</ul>
+					</fieldset>
+				</form>
+			</li>
+		</ul>
+	</nav>
+	<hr>
+	<section>
+		<header>
+			<h2>Over 175 million professionals use LinkedIn to exchange information, ideas and opportunities</h2>
+		</header>
+		<nav>
+			<ul>
+				<li>Stay informed about your contacts and industry</li>
+				<li>Find the people & knowledge you need to achieve your goals</li>
+				<li>Control your professional identity online</li>
+			</ul>
+		</nav>
+		<article>
+			<header>
+				<h3>Join LinkedIn Today</h3>
+			</header>
+			<form method="get" action="sign-up.php">
+				<fieldset>
+					<legend>Sing Up</legend>
+					<ul>
+						<li><label for="First Name">First Name:</label><br /><input type="text" name="First Name" /></li>
+						<li><label for="Last Name">Last Name:</label><br /><input type="text" name="Last Name" /></li>
+						<li><label for="email-signup">Email:</label><br /><input type="email" required="true" name="email-signup" /></li>
+						<li><label for="password-signup">Password:</label><br /><input type="password" required="true" name="password-signup" /></li>
+						<p>6 or more characters</p>
+					</ul>
+					<p><input type="submit" value="Join Now" /> <a href="#">*</a></p>
+					<p>Already in LinkedIn? <a href="#" name="Sing In">Sign In</a></p>
+				</fieldset>
+			</form> 
+		</article>
+		<article>
+			<header>
+				<h3>Search for someone by name:</h3>
+			</header>
+			<form method="get" action="search.php">
+				<ul>
+					<li><label for="First Name Search">First Name:</label><input type="text" name="First Name Search" placeholder="First Name" /></li>
+					<li><label for="Last Name Search">Last Name:</label><input type="text" name="Last Name Search" placeholder="Last Name" /></li>
+				</ul>
+				<input type="submit" value="Go" />
+			</form>
+		</article>
+	</section>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body, article, p
+{
+	margin: 0;
+	padding: 0; 
+}
+
+body
+{
+	margin: 5px;
+	margin-top: 10px;
+	font-size: 100%;
+}
+
+p
+{
+	font-family: consolas;
+	color: #0094ff;
+}
+
+
+p:first-letter 
+{
+    font-family: Edwardian Script ITC;
+    font-size: 2.2em;
+}
+
+p:first-line
+ {
+    font-weight: bold;
+	font-size:1.2em;
+}
